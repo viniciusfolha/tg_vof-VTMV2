@@ -1,6 +1,6 @@
 
-var pathData = "data/ath2_red.json";
-var pathConfig = "data/sport.config";
+var pathData = "data/dados.json";
+var pathConfig = "data/configuracoes.config";
 /*
 var pathData = "data/hurdat2-1851-2016_CONVERTED.json";
 var pathConfig = "data/hur.config";
