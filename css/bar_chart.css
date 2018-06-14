@@ -1,0 +1,84 @@
+.menuclassBar {
+background:#2a4699;
+width: 100px;
+height: 100px;
+margin: 0px;
+padding:6px;
+text-align: left;
+ position: absolute;
+  top: 20px;
+  right: 0px;";
+-moz-border-radius:7px;
+-webkit-border-radius:7px;
+ border-radius:7px;
+ color: #FFF;
+ font-size: 15px;
+}
+
+.chart .legend {
+  fill: black;
+  font: 14px sans-serif;
+  text-anchor: start;
+  font-size: 12px;
+}
+
+.chart text {
+  fill: white;
+  font: 10px sans-serif;
+  text-anchor: end;
+}
+
+.chart .label {
+  fill: black;
+  font: 14px sans-serif;
+  text-anchor: end;
+}
+
+.bar:hover {
+  fill: brown;
+}
+
+
+
+.bar { fill: steelblue; }
+
+.grid line {
+  stroke: lightgrey;
+  stroke-opacity: 0.7;
+  shape-rendering: crispEdges;
+}
+
+.view {
+  fill: url(#gradient);
+  stroke: #000;
+}
+
+.d3-tip {
+      line-height: 1;
+      padding: 6px;
+      background: rgba(0, 0, 0, 0.8);
+      color: #fff;
+      border-radius: 4px;
+      font-size: 12px;
+}
+ 
+    /* Creates a small triangle extender for the tooltip */
+.d3-tip:after {
+      box-sizing: border-box;
+      display: inline;
+      font-size: 10px;
+      width: 100%;
+      line-height: 1;
+      color: rgba(0, 0, 0, 0.8);
+      content: "\25BC";
+      position: absolute;
+      text-align: center;
+}
+ 
+    /* Style northward tooltips specifically */
+.d3-tip.n:after {
+      margin: -2px 0 0 0;
+      top: 100%;
+      left: 0;
+}
+

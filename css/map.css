@@ -1,0 +1,95 @@
+
+body {
+    background-color: #d0ccd0;
+        margin-left: 0;
+    margin-right:0;
+    margin-top: 0;
+}
+h1 { color: #888888; font-family: "Sansita one", cursive; font-size: 50px; line-height: 50px; font-weight: normal; margin-bottom: 0px;margin-left: 90px; margin-top: 0px; text-align: left; text-shadow: 0 1px 1px #fff; }
+#divMain{
+            background-color: #4b88a2;
+
+}
+#divMenu{
+    background-color:white;
+    border-bottom: solid #2A4699 10px;
+    background-image: url("logo.png");
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: 80px 50px;
+}
+#barchart1{
+
+    background-color: white;
+}
+#linechart1{
+
+        background-color: white;
+}
+#canvas{
+
+    background-color: white;
+}
+#mapMain{
+
+}
+.info {
+    padding: 6px 8px;
+    font: 14px/16px Arial, Helvetica, sans-serif;
+    background: white;
+    background: rgba(255,255,255,0.8);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border-radius: 5px;
+
+
+}
+.info h4 {
+    margin: 0 0 5px;
+    color: #777;
+}
+
+.legend {
+    line-height: 18px;
+    color: #555;
+    overflow: auto;
+    max-height:30%;
+    max-height:30vh;
+
+}
+
+.legend i {
+    width: 18px;
+    height: 18px;
+    float: left;
+    margin-right: 8px;
+    opacity: 0.7;
+}
+
+.line {                         
+  fill: none;                   
+  stroke-width: 2px;
+  stroke-linejoin: "round";
+  stroke-linecap": "round";          
+}
+
+.legend2 {
+    line-height: 18px;
+    color: #555;
+    overflow: auto;
+    max-height:30%;
+    max-height:30vh;
+
+}
+
+.legend2 i {
+    width: 18px;
+    height: 18px;
+    float: left;
+    margin-right: 8px;
+    opacity: 0.7;
+}
+
+.bigrect{
+    opacity: 0.2;
+    stroke: "none";   
+}

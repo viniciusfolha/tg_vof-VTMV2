@@ -1,0 +1,16 @@
+.menuclassGantt {
+background:#2a4699;
+width: 100px;
+height: 70px;
+margin: 0px;
+padding:6px;
+text-align: left;
+ position: absolute;
+  top: 590px;
+  right: 15px;";
+-moz-border-radius:7px;
+-webkit-border-radius:7px;
+ border-radius:7px;
+ color: #FFF;
+ font-size: 15px;
+}
