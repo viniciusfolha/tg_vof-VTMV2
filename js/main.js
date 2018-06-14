@@ -1,10 +1,7 @@
 
 var pathData = "data/dados.json";
-var pathConfig = "data/configuracoes.config";
-/*
-var pathData = "data/hurdat2-1851-2016_CONVERTED.json";
-var pathConfig = "data/hur.config";
-*/
+var pathConfig = "data/configuracao.config";
+
 var configData;
 var datum;
 
